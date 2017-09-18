@@ -1,0 +1,376 @@
+.videoBlock,.chatRoom,.commentBlock,#commentAdd,#commentBar,#commentData,#replyData,#reply,#replyData,p,span,h1,h2,h3,li,ul,ol,img,button,input,a,textarea{
+	margin:0;
+	padding:0;
+	font-family:Microsoft YaHei;
+	display:block;
+	font-size:0; 
+	text-decoration:none;
+	word-wrap: break-word;
+	margin:auto;
+}
+body{
+	width:100%;
+	margin:auto;
+}
+ul,li,ol{
+	list-style:none;
+}
+.container{
+	width:1150px;
+	margin:auto;
+	position: relative;
+}
+.videoBlock{
+	width:840px;
+	border: 1px solid #eee;
+	position:relative;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.videoBlock h1{
+	width:100%;
+	position:relative;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border:1px solid #eee;
+	font-size: 20px;
+	vertical-align: center;
+}
+.videoContent{
+
+}
+.chatRoom{
+	width:300px;
+	border:1px solid #eee;
+	position:relative;
+	display:inline-block;
+	vertical-align: top;
+}
+.chatRoom h1{
+	height:50px;
+	width:100%;
+	border: 1px solid #eee;
+	position:relative;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border:1px solid #eee;
+	font-size: 20px;
+	vertical-align: center;
+
+}
+.chatRoom .chatMessage{
+	width:100%;
+	position: relative;
+	display: inline-block;
+}
+.commentBlock{
+	width: 1150px;
+	position:relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.commentBlock h1{
+	height:50px;
+	width: 100%;
+	position: relative;
+	padding-left: 20px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	font-size: 20px;
+	vertical-align: center;
+}
+#commentAdd{
+	height:120px;
+	width:100%;
+	position: relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+#commentAdd img{
+	height:70px;
+	width:70px;
+	position:relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+	left:20px;
+	top:10px;
+	border-radius: 50%
+
+}
+#commentAdd #NickName{
+	height:20px;
+	width:70px;
+	position:relative;
+	border:1px solid #eee;
+	display: inline-block;
+	left:-50px;
+	top:35px;
+}
+#commentAdd textarea{
+	height: 80px;
+	width:75%;
+	position:relative;
+	border:1px solid #eee;
+	display:inline-block;
+	top:20px;
+	left:0px;
+	font-size: 16px;
+	padding:10px;
+	box-sizing: border-box;
+
+}
+#commentAdd button{
+	height: 30px;
+	width: 80px;
+	position:relative;
+	display: inline-block;
+	border:none;
+	border-radius: 7px;
+	background:#f00;
+	font-size: 14px;
+	font-family: ;
+	color: #fff;
+	right:-10px;
+	top:10px;
+	cursor: pointer;
+
+}
+#commentBar{
+	
+	width:100%;
+	position: relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+#commentBar #commentData{
+	width:100%;
+	position: relative;
+}
+#commentBar #commentData li{
+	width:100%;
+	position: relative;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+#commentBar #commentData li .cportrait{
+	height:70px;
+	width:70px;
+	position:relative;
+	border:1px solid #eee;
+	display: inline-block;
+	left:20px;
+	top:10px;
+	border-radius: 50%
+}
+#commentBar #commentData li #commentName{
+	height:20px;
+	width:120px;
+	position:relative;
+	display: inline-block;
+	left:50px;
+	top:-25px;
+	font-size: 16px;
+	color: #000;
+}
+#commentBar #commentData li #commentDate{
+	height:20px;
+	width:80px;
+	position:relative;
+	border:none;
+	display: inline-block;
+	left:-70px;
+	top:0px;
+	font-size: 16px;
+	color: #aaa;
+}
+#commentBar #commentData li #commentContent{
+	height:;
+	width:900px;
+	position:relative;
+	display: inline-block;
+	border:none;
+	top:0px;
+	left:100px;
+	margin:20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #000;
+}
+#commentBar #reply{
+	height: 30px;
+	width: 80px;
+	position:relative;
+	display: inline-block;
+	border:none;
+	border-radius: 7px;
+	background:none;
+	font-size: 14px;
+	font-family: ;
+	color: #aaa;
+	left:80px;
+	bottom:-10px;
+	cursor: pointer;
+}
+#replyBlock{
+	position: relative;
+}
+.replyAdd{
+	width:78%;
+	padding-top:30px;
+	background:#eee;
+	left :-10px;
+	margin:auto;
+}
+#replyBlock #replyName{
+	height:20px;
+	width:120px;
+	position:relative;
+	border:1px solid #aaa;
+	font-size: 16px;
+	display: inline-block;
+	top:-30px;
+	left:10px;
+	
+}
+#replyBlock #replyComment{
+	height: 80px;
+	width:65%;
+	position:relative;
+	border:1px solid #aaa;
+	display:inline-block;
+	
+	left:50px;
+	font-size: 16px;
+	padding:10px;
+	box-sizing: border-box;
+
+}
+#replyBlock #replySubmit{
+	height: 30px;
+	width: 80px;
+	position:relative;
+	display: inline-block;
+	border:none;
+	border-radius: 7px;
+	background:#f00;
+	font-size: 14px;
+	font-family: ;
+	color: #fff;
+	top:-10px;
+	left:60px;
+	cursor: pointer;
+
+}
+#commentBar #replyData{
+	position:relative;
+	width:78%;
+	background:#eee;
+	margin:auto;
+}
+#commentBar #replyData .reli{
+	position:relative;
+	margin-bottom:20px;
+	border-bottom:1px solid #aaa;
+}
+#commentBar #replyData li .sreplyN{
+	position:relative;
+	font-size: 16px;
+	display: inline-block;
+}
+#commentBar #replyData li .sreplyD{
+	height:20px;
+	width:80px;
+	position:relative;
+	float：left;
+	border:none;
+	display: inline-block;
+	font-size: 16px;
+	color: #aaa;
+	vertical-align: top;
+	margin-left:20px;
+}
+.reRe{
+	height: 30px;
+	width: 80px;
+	position:relative;
+	float:right;
+	display: inline-block;
+	border:none;
+	border-radius: 7px;
+	background:none;
+	font-size: 14px;
+	font-family: ;
+	color: #aaa;
+	cursor: pointer;
+	vertical-align: top;
+}
+#replyData li .sreplyC{
+	margin:auto;
+	width:;
+	position:relative;
+	display:block;
+	font-size: 16px;
+	margin-left:20px;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin-top:15px;
+	margin-right: 15px;
+	margin-bottom:15px;
+}
+#loadMore{
+	height:30px;
+	width:78%;
+	position:relative;
+	background:#eee;
+	margin:auto;
+	display: block;
+	border:none;
+	text-align: center;
+}
+#loadbtn{
+	width:100%;
+	margin:auto;
+	display: block;
+	border:none;
+	font-size: 20px;
+	color: #aaa;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+}
+#turn {
+	height:50px;
+	width:100%;
+	position: relative;
+	border-top:1px solid #eee;
+}
+#turn .fan{
+	height:50px;
+	width:50%;
+	left:25%;
+	text-align: center;
+	line-height:32px;
+	position: relative;
+
+}
+#turn a{
+	font-size: 16px;
+	color:#000;
+	display: inline-block;
+	position:relative;
+	cursor: pointer;
+}
+#turn span{
+	font-size: 16px;
+	color:#000;
+	display: inline-block;
+	position:relative;
+}
